@@ -108,9 +108,14 @@ void MainWindow::fontComboBoxFontChanged(QFont f)
 
 void MainWindow::on_actAbout_triggered()
 {
-    MainWindow2 *w2 = new MainWindow2(this);
-    w2->setAttribute(Qt::WA_DeleteOnClose);
-    w2->setWindowOpacity(0.7);
-    w2->show();
+    // MainWindow2 *w2 = new MainWindow2(this);
+    // w2->setAttribute(Qt::WA_DeleteOnClose);
+    // w2->setWindowOpacity(0.7);
+    // w2->show();
+    QMessageBox::information(this,
+                             tr("关于我的"),
+                             tr("姓名：周志刚\n学号：2022414040243"),
+                             QMessageBox::Ok,
+                             QMessageBox::Ok);
 }
 

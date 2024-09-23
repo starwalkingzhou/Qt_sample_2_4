@@ -7,6 +7,7 @@
 #include <QSpinBox>
 #include <QFontComboBox>
 #include <QTextCharFormat>
+#include <QMessageBox>
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

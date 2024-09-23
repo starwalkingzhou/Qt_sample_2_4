@@ -97,7 +97,7 @@
   </widget>
   <action name="actNew">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/new2.bmp</normaloff>:/images/images/new2.bmp</iconset>
    </property>
    <property name="text">
@@ -115,7 +115,7 @@
   </action>
   <action name="actOpen">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/open3.bmp</normaloff>:/images/images/open3.bmp</iconset>
    </property>
    <property name="text">
@@ -130,7 +130,7 @@
   </action>
   <action name="actAbout">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/BLD.BMP</normaloff>:/images/images/BLD.BMP</iconset>
    </property>
    <property name="text">
@@ -145,7 +145,7 @@
   </action>
   <action name="actClose">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/exit.bmp</normaloff>:/images/images/exit.bmp</iconset>
    </property>
    <property name="text">
@@ -160,7 +160,7 @@
   </action>
   <action name="actCut">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/cut.bmp</normaloff>:/images/images/cut.bmp</iconset>
    </property>
    <property name="text">
@@ -178,7 +178,7 @@
   </action>
   <action name="actCopy">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/120.bmp</normaloff>:/images/images/120.bmp</iconset>
    </property>
    <property name="text">
@@ -196,7 +196,7 @@
   </action>
   <action name="actPaste">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/paste.bmp</normaloff>:/images/images/paste.bmp</iconset>
    </property>
    <property name="text">
@@ -217,7 +217,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/BLD.BMP</normaloff>:/images/images/BLD.BMP</iconset>
    </property>
    <property name="text">
@@ -238,7 +238,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/ITL.BMP</normaloff>:/images/images/ITL.BMP</iconset>
    </property>
    <property name="text">
@@ -256,7 +256,7 @@
     <bool>true</bool>
    </property>
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/WORDUNDR.BMP</normaloff>:/images/images/WORDUNDR.BMP</iconset>
    </property>
    <property name="text">
@@ -271,7 +271,7 @@
   </action>
   <action name="actClear">
    <property name="icon">
-    <iconset resource="res.qrc">
+    <iconset>
      <normaloff>:/images/images/103.bmp</normaloff>:/images/images/103.bmp</iconset>
    </property>
    <property name="text">
@@ -285,9 +285,7 @@
    </property>
   </action>
  </widget>
- <resources>
-  <include location="res.qrc"/>
- </resources>
+ <resources/>
  <connections>
   <connection>
    <sender>actClose</sender>
